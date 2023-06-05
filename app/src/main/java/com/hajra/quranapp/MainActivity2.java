@@ -42,7 +42,7 @@ public class MainActivity2 extends AppCompatActivity {
             String[] Ayat = Arabic.GetData(QDHObject.SSP[surahIndex],QDHObject.surahAyatCount[surahIndex]+QDHObject.SSP[surahIndex]);
             String tmp = "";
 
-            for (int i = 0; i <Ayat.length-1; i++) {
+            for (int i = 0; i <Ayat.length; i++) {
                 tmp+=Ayat[i];
             }
 
