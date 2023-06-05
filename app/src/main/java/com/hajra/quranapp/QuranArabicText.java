@@ -1,6 +1,6 @@
 package com.hajra.quranapp;
 
-import java.util.List;
+import java.util.ArrayList;
 
 /**
  * Created by Haq Nawaz on 1/25/2016.
@@ -6362,7 +6362,7 @@ public class QuranArabicText {
     // String[] subset = Arrays.copyOfRange(QuranArabicText, 10, 20);
 
     public String[] GetData(int StartIndex, int EndIndex) {
-        List<String> listTemp = null;
+        ArrayList<String> listTemp = new ArrayList<>();
 
         for (int i = StartIndex; i < EndIndex; i++) {
             listTemp.add(QuranArabicText[i].toString());
